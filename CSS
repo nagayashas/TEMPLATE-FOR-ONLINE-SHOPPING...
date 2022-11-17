@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+   body{
+        background-color: antiquewhite;
+    }
+
+    .nav{
+        display: flex;
+        padding: 2% 6%;
+        justify-content: space-between;
+        align-items: center;
+      }
+    .nav-links{
+     text-align: center;
+    }
+
+    .nav-links ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+    .nav-links ul li a{
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        font-size: 20px;
+    }
+
+
+.header{
+    height: 100vh;
+    width: 100%;
+    background-image :url(image.jpg);
+    background-position: center;
+    background-size: cover;
+    } 
+
+ 
+    
+ #LandingPage{
+        display: grid;
+        margin: 0 3rem;
+        grid-template-columns: repeat(12,1fr);
+        column-gap: 10px;
+ }
+
+ .content{
+    font-size: 140%;
+    margin-top: 9rem;
+   margin-left: 54.5rem; 
+    white-space: nowrap;
+    color: rgb(83, 39, 1)
+
+}
+
+.bt{
+    display: inline-block;
+    background: rgb(153, 100, 57);
+    color: rgb(255, 255, 255);
+    margin-left: 70rem;
+    padding: 10px 30px;
+    font-size: 110%;
+    border-radius: 15px;
+    white-space: nowrap;
+}
+
+
+.btn{
+    display: inline-block;
+    background: rgb(153, 100, 57);
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    border-radius: 10px;
+    white-space: nowrap;
+}
+
+.btn1{
+    font-size: 125%;
+    display: inline-block;
+    background:transparent;
+    color:#FF1F00;
+    margin-top: 5rem;
+    white-space: nowrap;
+}
+
+
+.btn2{
+    font-size: 125%;
+    display: inline-block;
+    background:transparent;
+    color:#FF1F00;
+    margin-left:0rem;
+    margin-top: 0rem;
+    white-space: nowrap;
+}
+
+.footer{
+    width: 100;
+    text-align: center;
+    padding: 30px 0;
+    }
+    
+    .footer:h2{
+        margin-bottom: 25px;
+        margin-top: 20px;
+        font-size: 600;
+    }
+
+    .foot{
+        width: 100;
+        text-align: right;
+        padding: 30px 0;
+        }
+        
+        .foot:h2{
+            margin-bottom: 25px;
+            margin-top: 20px;
+            font-size: 600;
+        }
+    
